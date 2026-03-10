@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+.profile-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 24px auto;
+  max-width: 300px;
+}
+
+.profile-card:hover {
+  border-color: #61dafbaa;
+  box-shadow: 0 0 10px #61dafbaa;
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+}
