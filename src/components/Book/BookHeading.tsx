@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import styles from './BookHeading.module.css'
+import styles from "./BookHeading.module.css";
 
 interface Props {
   title: string;
