@@ -1,6 +1,8 @@
+import styles from "./Hero.module.css";
+
 export default function Hero() {
   return (
-    <section>
+    <section className={styles.hero}>
       <h2>Unlimited movies, TV shows, and more</h2>
       <p>Starts at €4.99. Cancel anytime.</p>
       <p>

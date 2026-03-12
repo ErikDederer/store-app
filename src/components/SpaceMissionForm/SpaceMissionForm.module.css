@@ -1,0 +1,38 @@
+.form {
+    border: solid 1px lightgrey;
+    border-radius: 1rem;
+    background-color: lightblue;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.form input {
+    
+    margin: 0.3rem;
+    padding: 0.3rem;
+    width: 40%;
+    border: solid 1px lightgrey;
+    border-radius: 0.3rem;
+}
+
+.form select {
+    
+    margin: 0.2rem;
+    padding: 0.15rem;
+    width: 40%;
+    border: solid 1px lightgrey;
+    border-radius: 0.3rem;
+}
+
+.form p {
+    margin: 0.2rem;
+    padding: 0.15rem;
+    font-size: large;
+}
+
+.greenParagraph {
+    color: green;
+}
+.redParagraph {
+    color: red;
+}

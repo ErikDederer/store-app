@@ -5,6 +5,7 @@ import GoldPriceCalculator from "./components/GoldPriceCalculator";
 import Greeting from "./components/Greeting/Greeting";
 import Hero from "./components/Hero/Hero";
 import ProfileCard from "./components/ProfileCard/ProfileCard";
+import SpaceMissionForm from "./components/SpaceMissionForm/SpaceMissionForm";
 import Tool from "./components/Tool/Tool";
 
 const bookProps = {
@@ -22,6 +23,7 @@ function App() {
       <Greeting name="Bob" />
       <Greeting name="Ioann" age={20} />
       <Tool />
+      <SpaceMissionForm />
       <Hero />
       <GoldPriceCalculator />
       

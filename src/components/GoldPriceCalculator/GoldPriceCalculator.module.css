@@ -1,0 +1,61 @@
+.container {
+    padding: 3rem;
+    margin: 2rem auto;
+    border: solid 1px #ccc;
+    border-radius: 1.5rem;
+    background-color: gold;
+}   
+.container h2 {
+    margin: 2rem;    
+    color: #0b0b80;
+    text-shadow: 1px 1px 2px #6958c6;
+    letter-spacing: 0.3rem;
+    font-size: xx-large;
+
+}
+
+.result {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: solid 1px #b7bd15;
+    border-radius: 1rem;
+    background-color: rgb(226, 178, 56);
+}
+
+.container select {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.container input {
+    margin-top: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.container button {
+    margin-top: 1rem;
+    padding: 0.57rem;
+    border-radius: 0.3rem;
+    background-color: #0b0b80;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #0b0b80d1;
+}
+
+.result p {
+    color: white;
+}
+
+.result input {
+    width: 10%;
+}   
+
+.result label {
+    margin-right: 0.5rem;
+    color: white;
+}

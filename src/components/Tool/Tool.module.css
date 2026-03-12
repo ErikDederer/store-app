@@ -1,0 +1,9 @@
+.tool {
+    padding: 2rem;
+    }
+
+.tool :hover {
+    color: #800b45;
+    transform: scale(2);
+    transition: all 0.2s ease;
+}

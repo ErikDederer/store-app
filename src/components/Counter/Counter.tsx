@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "../ui/Button/Button";
+import styles from "./Counter.module.css";
 
 export default function Counter() {
   const headingText = "Counter";
@@ -24,7 +25,7 @@ export default function Counter() {
   }
 
   return (
-    <div>
+    <div className={styles.container}>
       <h2>{headingText}</h2>
       <Button onClick={handlePlus}>+</Button>
       <div>Count: {count}</div>

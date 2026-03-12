@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "../ui/Button/Button";
+import styles from "./GoldPriceCalculator.module.css";
 
 export default function GoldPriceCalculator() {
   const [weight, setWeight] = useState<number>(0);
@@ -22,7 +23,7 @@ export default function GoldPriceCalculator() {
   }
 
   return (
-    <div>
+    <div className={styles.container}>
       <h2>GOLD PRICE CALCULATOR</h2>
       <select
         value={currencyCode}
@@ -43,7 +44,7 @@ export default function GoldPriceCalculator() {
       
      
       {goldPriceGram ? (
-        <div>
+        <div className={styles.result}>
           <p>
             Price per gram: {goldPriceGram} {currencyCode} Time: {dateTime}
           </p>
@@ -55,7 +56,7 @@ export default function GoldPriceCalculator() {
             onChange={(e) => setWeight(Number(e.target.value))}
           />
 
-          <p>Total price: {weight * goldPriceGram}</p>
+          <p>💰 Total price: {weight * goldPriceGram} {currencyCode}</p>
         </div>
       ) : (
         <p>First update the gold price and pick a currency.</p>
