@@ -1,0 +1,14 @@
+.profileCard {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 24px auto;
+  max-width: 300px;
+}
+
+.profileCard:hover {
+  border-color: #61dafbaa;
+  box-shadow: 0 0 10px #61dafbaa;
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+}

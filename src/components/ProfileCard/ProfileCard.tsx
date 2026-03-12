@@ -1,3 +1,6 @@
+import styles from "./ProfileCard.module.css"
+
+
 interface ProfileCardProps {
   avatar: string;
   name: string;
@@ -8,7 +11,7 @@ interface ProfileCardProps {
 export default function ProfileCard(props: ProfileCardProps) {
   const { avatar, name, description } = props;
   return (
-    <div className="profile-card">
+    <div className={`${styles.profileCard} ${styles.profileCardHover}`}>
       <img src={avatar} alt="User avatar" />
       <h2>{name}</h2>
       <p>{description}</p>
